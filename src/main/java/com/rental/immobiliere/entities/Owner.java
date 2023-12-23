@@ -20,5 +20,11 @@ public class Owner {
 
 
 
+    @OneToOne(mappedBy = "owner")
+
+    private Rental rental;
+
+
+
 
 }

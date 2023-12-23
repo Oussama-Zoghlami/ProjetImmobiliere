@@ -18,4 +18,9 @@ public class Property {
     private String adresse;
     private Double price;
 
+
+    @OneToOne(mappedBy = "property")
+
+    private Rental rental;
+
 }
